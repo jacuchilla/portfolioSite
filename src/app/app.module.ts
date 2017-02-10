@@ -18,7 +18,7 @@ const appRoutes: Routes = [
   { path:'applications', component: ApplicationsComponent },
   { path:'resume', component: ResumeComponent },
   { path:'contact', component: ContactComponent },
-  { path: '', redirectTo: '/about', pathMatch: 'full'}
+  { path: '**', redirectTo: '/about', pathMatch: 'full'}
 ]
 
 @NgModule({
