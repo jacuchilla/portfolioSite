@@ -3,16 +3,14 @@
   <div class="container">
     <a class="navbar-brand">Jose Cuchilla</a>
     <ul class="nav navbar-nav" routerLinkActive="active">
-      <li class="nav-item"><a class="nav-link" routerLinnk="home">Home</a></li>
-      <li class="nav-item"><a class="nav-link" routerLinnk="about">About</a></li>
-      <li class="nav-item"><a class="nav-link" routerLinnk="expertise">Expertise</a></li>
-      <li class="nav-item"><a class="nav-link" routerLinnk="applications">Applications</a></li>
-      <li class="nav-item"><a class="nav-link" routerLinnk="resume">Resume</a></li>
-      <li class="nav-item"><a class="nav-link" routerLinnk="contact">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="about">About</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="expertise">Expertise</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="applications">Applications</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="resume">Resume</a></li>
+      <li class="nav-item"><a class="nav-link" routerLink="contact">Contact</a></li>
     </ul>
   </div>
 </nav>
 
-<h1>
-  {{title}}
-</h1>
+<router-outlet></router-outlet>
