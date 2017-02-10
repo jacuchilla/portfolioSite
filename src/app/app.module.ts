@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { RouterModule, Routes} from '@angular/router';
+
 @NgModule({
   declarations: [
     AppComponent
