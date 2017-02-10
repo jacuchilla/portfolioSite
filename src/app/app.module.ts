@@ -7,6 +7,16 @@ import { AppComponent } from './app.component';
 
 import { RouterModule, Routes} from '@angular/router';
 
+const appRoutes: Routes = [
+  { path:'home', component: HomeComponent },
+  { path:'about', component: AboutComponent },
+  { path:'expertise', component: ExpertiseComponent },
+  { path:'applications', component: ApplicationsComponent },
+  { path:'resume', component: ResumeComponent },
+  { path:'contact', component: ContactComponent },
+  { path: '', redirectTo: '/home'}
+]
+
 @NgModule({
   declarations: [
     AppComponent
