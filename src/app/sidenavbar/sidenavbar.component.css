@@ -27,7 +27,7 @@ span {
 
 .sideNavContainer {
     /*display: block;*/
-    margin: 30px auto auto auto;
+    margin: auto auto auto auto;
 }
 
 #profilePic {
@@ -38,12 +38,25 @@ span {
     margin: auto;
 }
 
-ul, h1, h3 {
-    list-style-type: none;
+h1, h3 {
     text-align: center;
 }
 
 li, a {
     text-decoration: none;
     color: black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.navContainer {
+    display: block;
+    margin-left: 10%;
+}
+
+hr {
+    width: 70%;
 }
