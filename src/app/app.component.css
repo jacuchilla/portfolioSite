@@ -5,3 +5,13 @@ a {
     text-decoration: none;
     color: darkred;
 }
+
+md-sidenav {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+router-outlet {
+    text-align: right;
+}

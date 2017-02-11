@@ -11,6 +11,9 @@ import { ExpertiseComponent } from './expertise/expertise.component';
 import { ApplicationsComponent } from './applications/applications.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { MaterialModule } from '@angular/material';
+import 'hammerjs';
+import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 
 const appRoutes: Routes = [
   { path:'about', component: AboutComponent },
@@ -28,13 +31,15 @@ const appRoutes: Routes = [
     ExpertiseComponent,
     ApplicationsComponent,
     ResumeComponent,
-    ContactComponent
+    ContactComponent,
+    SidenavbarComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    MaterialModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
