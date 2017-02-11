@@ -1,14 +1,26 @@
-<md-sidenav-container opened="true">
+  <button md-button (click)="sidebar.toggle()">
+    <a>☰</a>
+  </button>
+
+<md-sidenav-container>
   <md-sidenav #sidebar mode="push" opened="true">
     <h1>Jose Cuchilla</h1>
     <h3>Full-Stack Software Engineer</h3>
-    <!--<nav>
-      <a class="nav-link" routerLink="home">Home</a>
-      <a class="nav-link" routerLink="about" routerLinkActive="active">About</a>
-      <a class="nav-link" routerLink="expertise">Expertise</a>
-      <a class="nav-link" routerLink="applications">Applications</a>
-      <a class="nav-link" routerLink="resume">Resume</a>
-      <a class="nav-link" routerLink="contact">Contact</a>
-    </nav>-->
+      <ul>
+        <!--<a class="nav-link" routerLink="home">Home</a>-->
+        <li><a class="nav-link" routerLink="about" routerLinkActive="active">About</a></li>
+        <li><a class="nav-link" routerLink="expertise">Expertise</a></li>
+        <li><a class="nav-link" routerLink="applications">Applications</a></li>
+        <li><a class="nav-link" routerLink="resume">Resume</a></li>
+        <li><a class="nav-link" routerLink="contact">Contact</a></li>
+      </ul>
   </md-sidenav>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
 </md-sidenav-container>
+
+
+
+
+

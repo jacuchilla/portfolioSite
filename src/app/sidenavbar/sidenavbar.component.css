@@ -1,0 +1,22 @@
+md-sidenav {
+    width: 60%;
+    height: 100%;
+}
+
+md-sidenav-container {
+  width: 500px;
+  height: 800px;
+}
+
+button {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li, a {
+    text-decoration: none;
+    color: black;
+}
