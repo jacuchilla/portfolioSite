@@ -6,7 +6,5 @@ a {
     color: darkred;
 }
 
-router-outlet {
-    position: absolute;
-}
+
 
