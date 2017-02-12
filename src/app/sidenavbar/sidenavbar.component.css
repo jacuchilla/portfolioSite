@@ -17,7 +17,7 @@ button {
     position: absolute;
 }*/
 
-/*span {
+/*div span {
     display: block;
     margin: auto auto auto 10px;
     position: fixed;
@@ -28,7 +28,7 @@ button {
 }*/
 
 .routerView {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 auto;
 }
 
 .sideNavContainer {
