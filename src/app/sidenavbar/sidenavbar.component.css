@@ -17,9 +17,15 @@ button {
     position: absolute;
 }*/
 
-span {
-    margin: 0 0 0 10px;
-}
+/*span {
+    display: block;
+    margin: auto auto auto 10px;
+    position: fixed;
+    top: 5px;
+    right: 0;
+    left: 10px;
+    padding: 15px
+}*/
 
 .routerView {
     margin: 0 0 0 20px;
@@ -42,7 +48,7 @@ h1, h4 {
     text-align: center;
 }
 
-li, a {
+li, li a {
     text-decoration: none;
     color: black;
     padding: 15px;
@@ -60,4 +66,25 @@ ul {
 
 hr {
     width: 60%;
+}
+
+/*header {
+    background-color: whitesmoke;
+    height: 5%;
+    transition: left 0.2s;
+}*/
+
+md-toolbar {
+    /*background-color: whitesmoke;*/
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.topNav {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-size: 16px;
 }

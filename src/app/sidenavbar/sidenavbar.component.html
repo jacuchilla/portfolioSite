@@ -25,18 +25,19 @@
         <hr>
     </div>
   </md-sidenav>
-  <div>
-      <span (click)="sidebar.toggle()">
-        <a>☰</a>
-      </span>
-      <!--<span>
-        <a class="nav-link" routerLink="about" routerLinkActive="active">About</a>
-        <a class="nav-link" routerLink="expertise">Expertise</a>
-        <a class="nav-link" routerLink="applications">Applications</a>
-        <a class="nav-link" routerLink="resume">Resume</a>
-        <a class="nav-link" routerLink="contact">Contact</a>
-      </span>-->
-  </div>
+  <md-toolbar color="primary">
+        <div (click)="sidebar.toggle()">
+          <span>☰</span>
+        </div>
+        <span class="example-fill-remaining-space"></span>
+        <span>
+          <a class="topNav" routerLink="about" routerLinkActive="active">About</a>
+          <a class="topNav" routerLink="expertise">Expertise</a>
+          <a class="topNav" routerLink="applications">Applications</a>
+          <a class="topNav" routerLink="resume">Resume</a>
+          <a class="topNav" routerLink="contact">Contact</a>
+        </span>
+  </md-toolbar>
   
   <div class="routerView">
     <router-outlet></router-outlet>
