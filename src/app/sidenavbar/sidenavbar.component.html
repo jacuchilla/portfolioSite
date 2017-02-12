@@ -30,7 +30,7 @@
           <span>☰</span>
         </div>
         <span class="example-fill-remaining-space"></span>
-        <span>
+        <span *ngIf="!sidebar.opened">
           <a class="topNav" routerLink="about" routerLinkActive="active">About</a>
           <a class="topNav" routerLink="expertise">Expertise</a>
           <a class="topNav" routerLink="applications">Applications</a>
