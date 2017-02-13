@@ -4,10 +4,20 @@ div {
     /*width: 90%;
     height: 90%;*/
     /*margin: auto auto auto auto;*/
-    padding: 10%;
+    padding: 5%;
     text-align: center;
 }
 
+/*md-card {
+    position: relative;
+}*/
+
 i {
-    font-size: x-large;
+    font-size: 200px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
 }
