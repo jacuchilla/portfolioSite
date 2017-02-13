@@ -1,8 +1,11 @@
 <div class="resumeContainer">
   <h1>Resume</h1>
-    <pdf-viewer [src]="pdfSrc" 
-                [page]="page" 
-                [original-size]="true" 
-                style="display: block;"
-    ></pdf-viewer>
+  <p>My resume can be found below. Feel free to download or print it.</p>
+  <pdf-viewer [src]="pdfSrc" 
+              [page]="page" 
+              [original-size]="true" 
+              style="display: block;"
+              [render-text]="true"
+              [zoom]="1.2"
+  ></pdf-viewer>
 </div>

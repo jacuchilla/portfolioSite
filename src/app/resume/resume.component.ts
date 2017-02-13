@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ResumeComponent implements OnInit {
-  pdfSrc = '../assets/JoseCuchillaResume.pdf';
+  pdfSrc: string = '../assets/JoseCuchillaResume.pdf';
+  page: number = 1;
 
   constructor() { }
 
