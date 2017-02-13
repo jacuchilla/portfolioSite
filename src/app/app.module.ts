@@ -15,6 +15,7 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
+import { PdfViewerComponent } from 'ng2-pdf-viewer';
 
 const appRoutes: Routes = [
   { path:'about', component: AboutComponent },
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
     ApplicationsComponent,
     ResumeComponent,
     ContactComponent,
-    SidenavbarComponent
+    SidenavbarComponent,
+    PdfViewerComponent
   ],
   imports: [
     BrowserModule,
