@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
+import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
 
 const appRoutes: Routes = [
   { path:'about', component: AboutComponent },
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes),
-    MaterialModule.forRoot()
+    MaterialModule.forRoot(),
+    Angular2FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
