@@ -30,6 +30,10 @@ h1 {
     text-align: center;
 }
 
+.expertiseText {
+    font-size: 1.5vw;
+}
+
 
 /*.visuals-wrapper {
     margin: 0 auto;
