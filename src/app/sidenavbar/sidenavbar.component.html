@@ -17,7 +17,19 @@
           <!--<a class="nav-link" routerLink="home">Home</a>-->
           <li><a class="nav-link" routerLink="about" routerLinkActive="active">About</a></li>
           <li><a class="nav-link" routerLink="expertise">Expertise</a></li>
-          <li><a class="nav-link" routerLink="applications">Applications</a></li>
+          <li><a class="nav-link" routerLink="applications" [mdMenuTriggerFor]="menu">Applications</a>
+            <!--<ul>
+              <li>Polished</li>
+              <li>Teach Me How</li>
+              <li>Point Blank</li>
+            </ul>-->
+          </li>
+            <md-menu #menu="mdMenu" md-position-mode="target-right bottom">
+                <button md-menu-item>Profile</button>
+                <button md-menu-item>Settings</button>
+                <button md-menu-item>Account</button>
+                <button md-menu-item>Sign Out</button>
+            </md-menu>
           <li><a class="nav-link" routerLink="resume">Resume</a></li>
           <li><a class="nav-link" routerLink="contact">Contact</a></li>
         </ul>

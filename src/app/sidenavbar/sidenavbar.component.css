@@ -98,10 +98,32 @@ md-toolbar {
 }
 
 md-toolbar {
-    /*background-color: black;*/
+    background-color: white;
+    /*border-top: 3px solid black;*/
     border-bottom: 3px solid black;
 }
 
 #hamburger {
     color: black;
+}
+
+/*md-menu {
+  max-width: 95%;
+  margin: 0.5em auto;
+  text-align: center;
+}*/
+
+
+ul ul {
+    position: absolute;
+    display: none;
+    background-color: white;
+    /*left: 0;
+    top: 100%;*/
+}
+
+li:hover ul {
+    display: block;
+    position: relative;
+    text-align: right;
 }
