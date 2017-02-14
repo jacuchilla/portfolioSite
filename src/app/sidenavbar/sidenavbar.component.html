@@ -2,13 +2,13 @@
 <md-sidenav-container>
   <md-sidenav #sidebar mode="side" opened="true">
     <div class="sideNavContainer">
-      <br>
+
+      <h1>Jose A. Cuchilla</h1>
       <br>
 
       <img src="../assets/jcuchilla.jpg" id="profilePic">
 
       <br>
-      <h1>Jose A. Cuchilla</h1>
       <h4>Software Engineer & Web Developer</h4>
       <br>
       <hr>
@@ -29,7 +29,7 @@
         <div (click)="sidebar.toggle()">
           <span id="hamburger">☰</span>
         </div>
-        <!--<span *ngIf="!sidebar.opened" id="name"> Jose Cuchilla</span>-->
+        <span *ngIf="!sidebar.opened" id="name"> Jose A. Cuchilla</span>
         <span class="example-fill-remaining-space"></span>
         <span *ngIf="!sidebar.opened">
           <a class="topNav" routerLink="about" routerLinkActive="active">About</a>

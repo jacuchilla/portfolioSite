@@ -11,6 +11,9 @@ md-sidenav {
     height: 100%;
 }
 
+img {
+    border: 2px solid black;
+}
 
 /*
 button {
@@ -89,13 +92,14 @@ md-toolbar {
     font-size: 16px;
 }
 
-/*#name {
-    margin: auto;
-}*/
+#name {
+    /*margin: auto;*/
+    padding: 5%
+}
 
 md-toolbar {
     /*background-color: black;*/
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 #hamburger {
