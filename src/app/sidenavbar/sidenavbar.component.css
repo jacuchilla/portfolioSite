@@ -92,3 +92,12 @@ md-toolbar {
 /*#name {
     margin: auto;
 }*/
+
+md-toolbar {
+    /*background-color: black;*/
+    border-bottom: 2px solid black;
+}
+
+#hamburger {
+    color: black;
+}
