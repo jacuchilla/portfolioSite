@@ -28,6 +28,7 @@ const appRoutes: Routes = [
   { path:'contact', component: ContactComponent },
   { path:'applications/polished', component: PolishedComponent },
   { path:'applications/teachmehow', component: TeachmehowComponent },
+  { path:'applications/pointblank', component: PointblankComponent },
   { path: '**', redirectTo: '/about', pathMatch: 'full'}
 ]
 
