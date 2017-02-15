@@ -9,6 +9,7 @@ md-sidenav-container {
 md-sidenav {
     width: 280px;
     height: 100%;
+    display: flex;
 }
 
 img {
@@ -110,13 +111,13 @@ md-toolbar {
   text-align: center;
 }*/
 
-
+/*
 ul ul {
     position: absolute;
     display: none;
     background-color: white;
-    /*left: 0;
-    top: 100%;*/
+    left: 0;
+    top: 100%;
 }
 
 li:hover ul {
@@ -132,4 +133,4 @@ li:hover ul {
 
 .md-menu-panel {
     max-width: 20px
-}
+}*/
