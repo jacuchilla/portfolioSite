@@ -16,6 +16,7 @@ import 'hammerjs';
 import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 import { Angular2FontAwesomeModule } from 'angular2-font-awesome/angular2-font-awesome';
 import { PdfViewerComponent } from 'ng2-pdf-viewer';
+import { PolishedComponent } from './polished/polished.component';
 
 const appRoutes: Routes = [
   { path:'about', component: AboutComponent },
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
   { path:'applications', component: ApplicationsComponent },
   { path:'resume', component: ResumeComponent },
   { path:'contact', component: ContactComponent },
+  { path:'applications/polished', component: PolishedComponent },
   { path: '**', redirectTo: '/about', pathMatch: 'full'}
 ]
 
@@ -35,7 +37,8 @@ const appRoutes: Routes = [
     ResumeComponent,
     ContactComponent,
     SidenavbarComponent,
-    PdfViewerComponent
+    PdfViewerComponent,
+    PolishedComponent
   ],
   imports: [
     BrowserModule,
