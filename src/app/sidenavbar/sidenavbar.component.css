@@ -132,3 +132,7 @@ li:hover ul {
     padding-top: 480px;
     padding-left: 160px;
 }
+
+.md-menu-panel {
+    max-width: 20px
+}
