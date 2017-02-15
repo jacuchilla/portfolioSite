@@ -77,10 +77,6 @@ hr {
     transition: left 0.2s;
 }*/
 
-md-toolbar {
-    /*background-color: whitesmoke;*/
-}
-
 .example-fill-remaining-space {
   flex: 1 1 auto;
 }
@@ -101,6 +97,7 @@ md-toolbar {
     background-color: white;
     /*border-top: 3px solid black;*/
     border-bottom: 3px solid black;
+    
 }
 
 #hamburger {
