@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidenavbar.component.css']
 })
 export class SidenavbarComponent implements OnInit {
+screen: any = window; 
 
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }
