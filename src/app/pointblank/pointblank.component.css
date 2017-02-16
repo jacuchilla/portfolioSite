@@ -23,3 +23,9 @@ p {
     clear: both;
 }
 
+a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    color: black;
+}
