@@ -1,7 +1,29 @@
-.polishedContainer {
+/*.polishedContainer {
     text-align: center;
-}
+}*/
 
 h1 {
     text-align: center;
 }
+
+.rightImg {
+    float: right;
+    /*clear: right;*/
+}
+
+.leftImg {
+    float: left;
+    /*clear: left;*/
+}
+
+p {
+    overflow: auto;
+    /*display: inline;
+    float: left;*/
+}
+
+.sectContainer {
+    display: inline-block;
+    clear: both;
+}
+
