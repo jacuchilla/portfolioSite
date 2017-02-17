@@ -1,8 +1,8 @@
 h1 {
     text-align: center;
 }
-/*
-.rightImg {
+
+/*.rightImg {
     float: right;
     clear: right;
 }
@@ -10,9 +10,9 @@ h1 {
 .leftImg {
     float: left;
     clear: left;
-}
+}*/
 
-p {
+/*p {
     overflow: auto;
     display: inline;
     float: left;
