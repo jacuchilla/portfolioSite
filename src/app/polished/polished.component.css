@@ -18,10 +18,10 @@ h1 {
     float: left;
 }*/
 
-/*.sectContainer {
+.navContainer {
     display: block;
     clear: both;
-}*/
+}
 
 a {
     text-decoration: none;

@@ -1,24 +1,24 @@
 h1 {
     text-align: center;
 }
-
+/*
 .rightImg {
     float: right;
-    /*clear: right;*/
+    clear: right;
 }
 
 .leftImg {
     float: left;
-    /*clear: left;*/
+    clear: left;
 }
 
 p {
     overflow: auto;
-    /*display: inline;
-    float: left;*/
-}
+    display: inline;
+    float: left;
+}*/
 
-.sectContainer {
+.navContainer {
     display: block;
     clear: both;
 }
