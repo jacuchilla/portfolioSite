@@ -2,26 +2,26 @@ h1 {
     text-align: center;
 }
 
-.rightImg {
+/*.rightImg {
     float: right;
-    /*clear: right;*/
+    clear: right;
 }
 
 .leftImg {
     float: left;
-    /*clear: left;*/
-}
+    clear: left;
+}*/
 
-p {
+/*p {
     overflow: auto;
-    /*display: inline;
-    float: left;*/
-}
+    display: inline;
+    float: left;
+}*/
 
-.sectContainer {
+/*.sectContainer {
     display: block;
     clear: both;
-}
+}*/
 
 a {
     text-decoration: none;
