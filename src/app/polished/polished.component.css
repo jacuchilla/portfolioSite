@@ -38,3 +38,11 @@ md-grid-tile-header {
     background-color: grey;
     color: black;
 }
+
+img {
+    height: 450px;
+}
+
+p {
+    font-size: 2vw;
+}
