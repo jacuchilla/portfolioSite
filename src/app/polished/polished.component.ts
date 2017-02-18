@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Parallax, ParallaxConfig } from '../parallax.directive';
 
 @Component({
   selector: 'app-polished',
