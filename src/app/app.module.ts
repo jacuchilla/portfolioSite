@@ -19,7 +19,6 @@ import { PdfViewerComponent } from 'ng2-pdf-viewer';
 import { PolishedComponent } from './polished/polished.component';
 import { TeachmehowComponent } from './teachmehow/teachmehow.component';
 import { PointblankComponent } from './pointblank/pointblank.component';
-import { Parallax, ParallaxConfig } from './parallax.directive';
 
 const appRoutes: Routes = [
   { path:'about', component: AboutComponent },
@@ -45,8 +44,7 @@ const appRoutes: Routes = [
     PdfViewerComponent,
     PolishedComponent,
     TeachmehowComponent,
-    PointblankComponent,
-    Parallax
+    PointblankComponent
   ],
   imports: [
     BrowserModule,
