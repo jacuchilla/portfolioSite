@@ -1,22 +1,7 @@
 h1 {
     text-align: center;
+    border: 2px solid black;
 }
-
-/*.rightImg {
-    float: right;
-    clear: right;
-}
-
-.leftImg {
-    float: left;
-    clear: left;
-}*/
-
-/*p {
-    overflow: auto;
-    display: inline;
-    float: left;
-}*/
 
 .navContainer {
     display: block;
@@ -32,10 +17,12 @@ a {
 
 .polishedContainer {
     padding: 0 2%;
+    position: relative;
+    background-color: #808080;
 }
 
 md-grid-tile-header {
-    background-color: white;
+    background-color: #808080;
     color: black;
     /*border-radius: 2%;*/
 }
@@ -55,4 +42,6 @@ p {
 .sectContainer {
     margin: 5%;
 }
+
+
 

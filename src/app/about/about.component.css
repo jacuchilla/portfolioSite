@@ -1,7 +1,10 @@
 
 div {
     position: relative;
-    background-color: lightgrey;
+    background-color: #808080;
+    /*808080
+    807e7b
+    */
     width: 80%;
     height: 80%;
     /*margin: auto auto auto auto;*/
