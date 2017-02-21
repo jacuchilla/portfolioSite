@@ -16,3 +16,7 @@ pdf-viewer {
 h1 {
     color: black;
 }
+
+md-card {
+    margin: 0 20px;
+}

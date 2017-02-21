@@ -1,6 +1,5 @@
 <div class="resumeContainer">
-  <h1>Resume</h1>
-  <p>My resume can be found below. Feel free to download or print it.</p>
+
   <!--<pdf-viewer [src]="pdfSrc" 
               [page]="page" 
               [original-size]="false" 
@@ -10,7 +9,11 @@
   ></pdf-viewer>
   <br>
   <br>-->
-  <div>
-    <iframe width="900" height="1100" [src]="pageurl" type="application/pdf"></iframe>
-  </div>
+  <md-card>
+    <h1>Resume</h1>
+    <p>My resume can be found below. Feel free to download or print it.</p>
+    <div>
+      <iframe width="900" height="1100" [src]="pageurl" type="application/pdf"></iframe>
+    </div>
+  </md-card>
 </div>
