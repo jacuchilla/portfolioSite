@@ -1,6 +1,6 @@
 
 <md-sidenav-container>
-  <md-sidenav #sidebar mode="side" opened="true">
+  <md-sidenav #sidebar mode="side" opened="true" id="sidenavbar">
     <div class="sideNavContainer">
 
       <h1>Jose A. Cuchilla</h1>
@@ -38,7 +38,7 @@
         <hr>
     </div>
   </md-sidenav>
-  <md-toolbar color="primary">
+  <md-toolbar [color]="primary">
         <div (click)="sidebar.toggle()">
           <span id="hamburger">☰</span>
         </div>
