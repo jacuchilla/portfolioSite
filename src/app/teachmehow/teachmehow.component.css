@@ -2,22 +2,6 @@ h1 {
     text-align: center;
 }
 
-/*.rightImg {
-    float: right;
-    clear: right;
-}
-
-.leftImg {
-    float: left;
-    clear: left;
-}*/
-
-/*p {
-    overflow: auto;
-    display: inline;
-    float: left;
-}*/
-
 .navContainer {
     display: block;
     clear: both;
@@ -31,7 +15,8 @@ a {
 }
 
 .teachmehowContainer {
-    padding: 0 2%;
+    padding: 10px;
+    background-color: #808080;
 }
 
 img {
@@ -44,4 +29,12 @@ img {
 p {
     font-size: 1.6vw;
     padding: 5%;
+}
+
+.leftContainer {
+    display: inline-block;
+}
+
+.rightContainer {
+    float: right;
 }

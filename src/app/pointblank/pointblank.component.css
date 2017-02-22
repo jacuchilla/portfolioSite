@@ -1,26 +1,12 @@
+
 h1 {
     text-align: center;
 }
 
-/*.rightImg {
-    float: right;
-    clear: right;
-}
-
-.leftImg {
-    float: left;
-    clear: left;
-}*/
-
-/*p {
-    overflow: auto;
-    display: inline;
-    float: left;
-}*/
-
 .navContainer {
-    display: block;
-    clear: both;
+    /*display: block;*/
+    /*clear: both;*/
+    background-color: #808080;
 }
 
 a {
@@ -31,7 +17,8 @@ a {
 }
 
 .pointblankContainer {
-    padding: 0 2%;
+    padding: 10px;
+    background-color: #808080;
 }
 
 md-grid-tile-header {
@@ -51,3 +38,12 @@ p {
     font-size: 1.6vw;
     padding: 5%;
 }
+
+.leftContainer {
+    display: inline-block;
+}
+
+.rightContainer {
+    float: right;
+}
+
