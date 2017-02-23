@@ -1,16 +1,17 @@
-div {
+/*div {
     position: relative;
     background-color: #b5b3b2;
     width: 100%;
     height: 100%;
     padding: 10px;
-}
+}*/
 
 md-grid-list {
-    position: relative;
+    /*position: relative;*/
     background-color: #b5b3b2;
-    /*width: 100%;*/
+    /*width: 80%;*/
     /*height: 100%;*/
+    /*padding: 10px;*/
 }
 
 .expert {
@@ -33,6 +34,11 @@ h1 {
 
 .expertiseText {
     font-size: 1.5vw;
+}
+
+.expertContainer {
+    padding: 10px;
+    background-color: #b5b3b2;
 }
 
 
