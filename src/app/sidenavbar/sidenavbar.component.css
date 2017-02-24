@@ -16,6 +16,7 @@ md-sidenav {
     height: 100%;
     display: flex;
     background-color: #675d4e;
+    /*background-color: #91816b;*/
     /*opacity: 1.0;*/
 }
 
@@ -104,7 +105,7 @@ ul {
     text-decoration: none;
     color: black;
     padding: 20px;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     font-family: 'IM Fell English', serif;
 }
 
@@ -114,6 +115,7 @@ ul {
 }
 
 md-toolbar {
+    /*background-color: #91816b;*/
     background-color: #675d4e;
     opacity: 0.98;
     /*border-top: 3px solid black;*/
