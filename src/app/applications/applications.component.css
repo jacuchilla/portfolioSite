@@ -1,31 +1,17 @@
-div {
-    position: relative;
-    background-color: #b5b3b2;
-    width: 100%;
-    height: 100%;
-    padding: 4.5% 0;
-}
 
-md-grid-list {
-    position: relative;
-    /*background-color: #808080;*/
-    margin-right: 1.5%;
-    /*padding: 0 5%;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    
-}
-
-.expert {
+/*.expert {
     text-align: center;
     display: flex;
     font-size: 2.5vw;
     padding: 20%;
-    /*background-color: #808080;*/
-    /*height: 50%;*/
-    justify-content: center;  /*align horizontal*/ 
-    align-items: center;  /*align vertical*/ 
+    justify-content: center; 
+    align-items: center; 
     font-family: 'IM Fell English', serif;
+}*/
+
+.appContainer {
+    padding: 10px;
+    background-color: #b5b3b2;
 }
 
 h1 {
@@ -39,14 +25,73 @@ a {
 }
 
 img {
-    /*height: 450px;*/
-    width: 100%;
-    padding: 5%;
-    padding: 15% 5%;
+    width: 320px;
+    /*padding: 5%;
+    padding: 15% 5%;*/
     border-radius: 5%;
-    /*border: 2px solid black;*/
 }
 
-/*.appContainer {
-    margin-right: 100px;
+/*div {
+    background-color: #b5b3b2;
 }*/
+
+
+
+
+
+
+.appCont {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+    /*background-color: #675d4e;*/
+    width: 320px;
+    /*height: 200px;*/
+    /*border-radius: 100%;*/
+    /*text-align: center;*/
+    display: flex;
+    /*justify-content: center; */
+    align-items: center; 
+    font-size: 20px;
+    color: black;
+    /*border: 2px solid black;*/
+    /*font-family: 'IM Fell Great Primer SC', serif;*/
+    /*align-items: center; */
+    /*padding: 10px;*/
+    margin: 2.5%;
+    flex-direction: column;
+}
+
+
+.imageFig {
+    /*width: 100%;*/
+    display: flex;
+    font-family: 'IM Fell Great Primer SC', serif;
+
+    /*background-color: #675d4e;*/
+    /*width: 150px;
+    height: 150px;*/
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 20px;
+    color: black;
+    /*border: 2px solid black;*/
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding: 0 10px;
+}
+
+.appName {
+    /*position: relative;*/
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    /*padding: 1%;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
