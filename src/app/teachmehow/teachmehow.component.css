@@ -41,3 +41,13 @@ p {
 .rightContainer {
     float: right;
 }
+
+
+.jumbotron {
+    text-align: center;
+    font-size: 30px;
+    padding: 10%;
+    background-color: #B5B3B2;
+    /*border-radius: 48%;*/
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
