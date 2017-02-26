@@ -149,3 +149,10 @@ h1 {
     /*font-family: 'Ledger', serif;*/
 }
 
+
+@media (max-width: 700px) {
+    .topNav {
+        display: none;
+    }
+}
+
