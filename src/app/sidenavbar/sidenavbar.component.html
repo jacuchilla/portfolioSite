@@ -1,5 +1,5 @@
 
-<md-sidenav-container>
+<md-sidenav-container (window:resize)="onResize($event)">
   <md-sidenav #sidebar mode="side" opened="true" id="sidenavbar">
     <div class="sideNavContainer">
       <br>
@@ -38,6 +38,8 @@
         <!--<hr>-->
     </div>
   </md-sidenav>
+
+
   <md-toolbar [color]="primary">
         <div (click)="sidebar.toggle()">
           <span id="hamburger">☰</span>

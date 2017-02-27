@@ -150,9 +150,10 @@ h1 {
 }
 
 
-@media (max-width: 687px) {
+@media (max-width: 703px) {
     .topNav {
         display: none;
+        /*visibility: hidden;*/
     }
 }
 
