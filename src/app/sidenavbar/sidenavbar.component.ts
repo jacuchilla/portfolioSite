@@ -26,12 +26,30 @@ export class SidenavbarComponent implements OnInit {
     else {
       this.sideNavBar._results[0].mode = "side";
     }
+  }
+
+  detectMobile (size) {
+    if (size < 703) {
+      // console.log(this.sideNavBar._results[0]._opened)
+      this.sideNavBar._results[0]._opened = false;
+      this.sideNavBar._results[0].mode = "over";
+    }
+    else {
+      console.log('everything cool', size)
+    }
   } 
 
   constructor(private elRef:ElementRef) { }
 
   ngOnInit() {
+    // console.log('Platform detection ', navigator)
+
   }
+
+  ngAfterViewInit() {
+    window.setTimeout( () => this.detectMobile(window.innerWidth), 1)
+    
+}
 
 
 
