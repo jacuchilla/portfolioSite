@@ -22,11 +22,10 @@ a {
     background-color: #808080;
 }
 
-md-grid-tile-header {
+/*md-grid-tile-header {
     background-color: #808080;
     color: black;
-    /*border-radius: 2%;*/
-}
+}*/
 
 img {
     /*height: 450px;*/
@@ -41,9 +40,9 @@ p {
     font-family: 'IM Fell Great Primer SC', serif;
 }
 
-.sectContainer {
+/*.sectContainer {
     margin: 5%;
-}
+}*/
 
 
 /*li {
