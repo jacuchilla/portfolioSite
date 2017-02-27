@@ -49,7 +49,7 @@ export class SidenavbarComponent implements OnInit {
   ngAfterViewInit() {
     window.setTimeout( () => this.detectMobile(window.innerWidth), 1)
     
-}
+  }
 
 
 

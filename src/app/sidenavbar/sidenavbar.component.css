@@ -155,6 +155,9 @@ h1 {
         display: none;
         /*visibility: hidden;*/
     }
+    .resumeLink {
+        display: none;
+    }
 }
 
 /*@media (max-width: 900px) {
