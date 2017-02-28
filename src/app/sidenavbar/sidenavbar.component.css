@@ -4,7 +4,7 @@ md-sidenav-container {
    min-height: 93%;
    width: 93%;
    min-width: 93%;
-   background-color: #b5b3b2;
+   /*background-color: #b5b3b2;*/
    border-radius: 1%;
    margin: 1% 2%;
    /*opacity: 0.90;*/
@@ -52,8 +52,8 @@ button {
 .sideNavContainer {
     /*display: block;*/
     margin: auto auto auto auto;
-    /*background-color: white;
-    opacity: 1.0;*/
+    /*background-color: white;*/
+    opacity: 1.0;
 }
 
 #profilePic {
