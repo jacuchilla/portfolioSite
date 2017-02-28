@@ -4,7 +4,7 @@ md-sidenav-container {
    min-height: 93%;
    width: 93%;
    min-width: 93%;
-   /*background-color: #808080;*/
+   background-color: #b5b3b2;
    border-radius: 1%;
    margin: 1% 2%;
    /*opacity: 0.90;*/
@@ -159,9 +159,3 @@ h1 {
         display: none;
     }
 }
-
-/*@media (max-width: 900px) {
-    .resumeLink {
-        display: none;
-    }
-}*/
