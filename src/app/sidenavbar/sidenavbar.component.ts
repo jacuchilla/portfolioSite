@@ -10,7 +10,7 @@ export class SidenavbarComponent implements OnInit {
 
   onResize(event) {
     // console.log(event.target.innerWidth === 703)
-    console.log("this is the event! ", event)
+    // console.log("this is the event! ", event)
     // console.log(this.elRef.nativeElement.querySelector('#sidenavbar'))
     if (event.target.innerWidth <= 703) {
       // console.log(this.sideNavBar._results[0]._opened)
@@ -44,10 +44,10 @@ export class SidenavbarComponent implements OnInit {
 
   ngOnInit() {
     // console.log('Platform detection ', navigator)
-
   }
 
   ngAfterViewInit() {
+    console.log('heres the sidebar', this.sideNavBar)
     window.setTimeout( () => this.detectMobile(window.innerWidth), 1)
     
   }
