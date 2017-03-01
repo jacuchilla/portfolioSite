@@ -36,7 +36,7 @@ export class SidenavbarComponent implements OnInit {
       this.sideNavBar._results[0].mode = "over";
     }
     else {
-      console.log('everything cool', size)
+      // console.log('everything cool', size)
     }
   } 
 
@@ -47,7 +47,7 @@ export class SidenavbarComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    console.log('heres the sidebar', this.sideNavBar)
+    // console.log('heres the sidebar', this.sideNavBar)
     window.setTimeout( () => this.detectMobile(window.innerWidth), 1)
     
   }
