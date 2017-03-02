@@ -65,7 +65,7 @@ h1 {
 .containerr {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    /*text-align: center;*/
     justify-content: center;
     
 }
@@ -92,8 +92,6 @@ h1 {
 .expertFig {
     /*width: 100%;*/
     display: flex;
-    font-family: 'IM Fell Great Primer SC', serif;
-
     background-color: black;
     /*#808080*/
     width: 180px;
@@ -117,7 +115,8 @@ h1 {
     display: flex;
     /*padding: 1%;*/
     /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'IM Fell Great Primer SC', serif;
+    font-family: serif;
+    line-height: 150%;
 }
 
 
