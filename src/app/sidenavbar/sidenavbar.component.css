@@ -161,10 +161,10 @@ h1 {
     .topNav {
         /*display: none;*/
         /*visibility: hidden;*/
-        /*padding: 2.5px;
-        font-size: 13px;*/
-        padding: 2.5px;
-        font-size: .7em;
+        padding: 10px;
+        /*font-size: 13px;*/
+        /*padding: 1.5px;*/
+        /*font-size: .7em;*/
     }
     .resumeLink {
         display: none;
@@ -173,4 +173,15 @@ h1 {
         width: 185px;
         height: 100%;
     }*/
+}
+
+@media (max-width: 497px) {
+    .topNav {
+        /*display: none;*/
+        /*visibility: hidden;*/
+        /*padding: 2.5px;
+        font-size: 13px;*/
+        padding: 2.5px;
+        font-size: .8em;
+    }
 }
