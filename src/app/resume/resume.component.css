@@ -49,3 +49,10 @@ div {
 }*/
 
 /*width="900" height="1100"*/
+
+h1 {
+    text-align: center;
+    /*font-size: 3em;*/
+    /*font-family: 'IM Fell English', serif;*/
+    font-family: 'IM Fell Great Primer SC', serif;
+}

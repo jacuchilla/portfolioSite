@@ -96,8 +96,9 @@ img {
 }
 
 
-p {
+h1 {
     text-align: center;
-    font-size: 3em;
-    font-family: 'IM Fell English', serif;
+    /*font-size: 3em;*/
+    /*font-family: 'IM Fell English', serif;*/
+    font-family: 'IM Fell Great Primer SC', serif;
 }
