@@ -159,10 +159,18 @@ h1 {
 
 @media (max-width: 703px) {
     .topNav {
-        display: none;
+        /*display: none;*/
         /*visibility: hidden;*/
+        /*padding: 2.5px;
+        font-size: 13px;*/
+        padding: 2.5px;
+        font-size: .7em;
     }
     .resumeLink {
         display: none;
+    }
+    md-sidenav {
+        width: 185px;
+        height: 100%;
     }
 }
