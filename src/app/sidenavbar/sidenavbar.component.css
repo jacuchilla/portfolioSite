@@ -1,12 +1,12 @@
 md-sidenav-container {
    position: fixed;
-   height: 93%;
-   min-height: 93%;
-   width: 93%;
-   min-width: 93%;
+   height: 98%;
+   min-height: 98%;
+   width: 98%;
+   min-width: 98%;
    /*background-color: #b5b3b2;*/
    border-radius: 1%;
-   margin: 1% 2%;
+   /*margin: 1% 2%;*/
    background-color: #CACACA;
    /*opacity: 0.90;*/
    /*background:rgba(0, 0, 255,1);*/
