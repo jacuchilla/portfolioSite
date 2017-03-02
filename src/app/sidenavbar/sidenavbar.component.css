@@ -169,8 +169,8 @@ h1 {
     .resumeLink {
         display: none;
     }
-    md-sidenav {
+    /*md-sidenav {
         width: 185px;
         height: 100%;
-    }
+    }*/
 }
