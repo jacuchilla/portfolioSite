@@ -7,6 +7,7 @@ md-sidenav-container {
    /*background-color: #b5b3b2;*/
    border-radius: 1%;
    margin: 1% 2%;
+   background-color: #CACACA;
    /*opacity: 0.90;*/
    /*background:rgba(0, 0, 255,1);*/
 }
@@ -15,8 +16,10 @@ md-sidenav {
     width: 280px;
     height: 100%;
     display: flex;
-    background-color: #675d4e;
+    /*background-color: #B5B3B2;*/
+    background-color: #CACACA;
     /*background-color: #91816b;*/
+    
     /*opacity: 1.0;*/
 }
 
@@ -27,7 +30,7 @@ img {
 .routerView {
     opacity: 0.98;
     height: 100%;
-    background-color: #b5b3b2;
+    background-color: #CACACA;
 }
 
 /*
@@ -116,7 +119,11 @@ ul {
 
 md-toolbar {
     /*background-color: #91816b;*/
-    background-color: #675d4e;
+    
+    /*#675d4e*/
+    background-color: #CACACA;
+    /*background-color: #B5B3B2;*/
+    
     opacity: 0.98;
     /*border-top: 3px solid black;*/
     /*border-bottom: 3px solid black;*/

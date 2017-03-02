@@ -35,9 +35,10 @@ img {
 }
 
 p {
-    font-size: 2.6vw;
-    padding: 5%;
-    font-family: 'IM Fell Great Primer SC', serif;
+    font-size: 1.6em;
+    padding: 10%;
+    /*font-family: 'IM Fell Great Primer SC', serif;*/
+    font-family: Helvetica, Sans-Serif;
 }
 
 /*.sectContainer {
@@ -62,7 +63,8 @@ p {
     text-align: center;
     font-size: 30px;
     padding: 3%;
-    background-color: #B5B3B2;
+    /*background-color: #B5B3B2;*/
+    background-color: #CACACA;
     /*border-radius: 48%;*/
     box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 }

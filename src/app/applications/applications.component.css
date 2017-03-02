@@ -11,7 +11,7 @@
 
 .appContainer {
     padding: 10px;
-    background-color: #b5b3b2;
+    background-color: #CACACA;
 }
 
 h1 {
@@ -95,3 +95,9 @@ img {
     font-family: 'IM Fell Great Primer SC', serif;
 }
 
+
+p {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'IM Fell English', serif;
+}

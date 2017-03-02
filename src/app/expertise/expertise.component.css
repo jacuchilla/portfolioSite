@@ -55,7 +55,7 @@ h1 {
 
 .expertContainer {
     padding: 10px;
-    background-color: #b5b3b2;
+    background-color: #CACACA;
 }
 
 
@@ -94,7 +94,7 @@ h1 {
     display: flex;
     font-family: 'IM Fell Great Primer SC', serif;
 
-    background-color: #675d4e;
+    background-color: #808080;
     width: 180px;
     height: 200px;
     border-radius: 100%;
@@ -117,6 +117,13 @@ h1 {
     /*padding: 1%;*/
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'IM Fell Great Primer SC', serif;
+}
+
+
+p {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'IM Fell English', serif;
 }
 
 
