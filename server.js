@@ -1,5 +1,16 @@
+// var fs = require('fs');
+// var http = require('http');
+// var https = require('https');
+// var privateKey  = fs.readFileSync('sslcert/server.key', 'utf8');
+// var certificate = fs.readFileSync('sslcert/server.crt', 'utf8');
+// var credentials = {key: privateKey, cert: certificate};
+
 const express = require('express');
 const app = express();
+// var httpServer = http.createServer(app);
+// var httpsServer = https.createServer(credentials, app);
+
+
 // If an incoming request uses
 // a protocol other than HTTPS,
 // redirect that request to the
@@ -17,7 +28,7 @@ const forceSSL = function() {
 // Instruct the app
 // to use the forceSSL
 // middleware
-app.use(forceSSL());
+// app.use(forceSSL());
 // Run the app by serving the static files
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
