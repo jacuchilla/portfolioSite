@@ -30,10 +30,14 @@ const app = express();
 // middleware
 // app.use(forceSSL());
 
-app.use(app.router);
+
 // Run the app by serving the static files
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
+
+app.get("/expertise", function(req, res) {
+  res.send(console.log('works!'))
+})
 
 // Start the app by listening on the default
 // Heroku port
