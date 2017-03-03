@@ -36,7 +36,7 @@ const app = express();
 app.use(express.static(__dirname + '/dist'));
 
 app.get("/expertise", function(req, res) {
-  express.static(__dirname + '/dist');
+  res.send(<h1>It works here!</h1>)
 })
 
 // Start the app by listening on the default
