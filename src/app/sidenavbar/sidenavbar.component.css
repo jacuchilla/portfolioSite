@@ -182,4 +182,8 @@ h1 {
         /*padding: 2.5px;
         font-size: .8em;*/
     }
+    md-sidenav-container {
+        width: 95%;
+        min-width: 95%;
+    }
 }
