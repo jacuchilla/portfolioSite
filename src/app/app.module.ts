@@ -29,7 +29,7 @@ const appRoutes: Routes = [
   { path:'polished', component: PolishedComponent },
   { path:'teachmehow', component: TeachmehowComponent },
   { path:'pointblank', component: PointblankComponent },
-  { path: '**', redirectTo: 'about', pathMatch: 'full'}
+  { path: '**', redirectTo: '/about', pathMatch: 'full'}
 ]
 
 @NgModule({

@@ -35,16 +35,6 @@ const app = express();
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
 
-// app.use("/about", express.static(__dirname + '/dist'));
-// app.use("/expertise", express.static(__dirname + '/dist'));
-// app.use("/applications", express.static(__dirname + '/dist'));
-// app.use("/resume", express.static(__dirname + '/dist'));
-// app.use("/contact", express.static(__dirname + '/dist'));
-
-// app.get("/expertise", function(req, res) {
-//   res.render(express.static(__dirname + '/dist'))
-// })
-
 // Start the app by listening on the default
 // Heroku port
 app.listen(process.env.PORT || 8080);
