@@ -35,7 +35,7 @@ const app = express();
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
 
-app.get("/about", express.static(__dirname + '/dist'));
+app.use("/about", express.static(__dirname + '/dist'));
 
 // app.get("/expertise", function(req, res) {
 //   res.render(express.static(__dirname + '/dist'))
