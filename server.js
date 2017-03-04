@@ -33,11 +33,11 @@ const app = express();
 
 // Run the app by serving the static files
 // in the dist directory
-app.use(express.static(__dirname + '/dist'));
+app.use("*", express.static(__dirname + '/dist'));
 
-app.get("/expertise", function(req, res) {
-  res.render(express.static(__dirname + '/dist'))
-})
+// app.get("/expertise", function(req, res) {
+//   res.render(express.static(__dirname + '/dist'))
+// })
 
 // Start the app by listening on the default
 // Heroku port
