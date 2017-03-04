@@ -43,6 +43,7 @@ app.use("/teachmehow", express.static(__dirname + '/dist'));
 app.use("/pointblank", express.static(__dirname + '/dist'));
 app.use("/resume", express.static(__dirname + '/dist'));
 app.use("/contact", express.static(__dirname + '/dist'));
+app.use("/*", express.static(__dirname + '/dist'));
 
 
 // Start the app by listening on the default
