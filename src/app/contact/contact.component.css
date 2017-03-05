@@ -25,3 +25,12 @@ a {
     font-family: 'IM Fell Great Primer SC', serif;
 }
 
+p {
+    font-size: 2em;
+}
+
+@media (max-width: 497px) {
+    p {
+        font-size: 1.2em;
+    }
+}
