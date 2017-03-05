@@ -75,7 +75,7 @@ h1, h2 {
 li, li a {
     text-decoration: none;
     color: black;
-    padding: 5%;
+    padding: 5.5%;
     font-family: 'IM Fell English', serif;
     font-size: 18px;
 }
@@ -86,8 +86,7 @@ ul {
 }
 
 /*.navContainer {
-    display: block;
-    margin-left: 10%;
+
 }*/
 
 /*hr {
@@ -186,4 +185,11 @@ h1 {
         width: 95%;
         min-width: 95%;
     }
+
+    li a {
+    font-size: 1.2em;
+    /*color: red;*/
 }
+}
+
+
